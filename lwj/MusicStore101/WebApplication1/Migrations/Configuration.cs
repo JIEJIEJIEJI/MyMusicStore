@@ -1,4 +1,4 @@
-namespace WebApplication1.Migrations
+namespace MusicStore.Migrations
 {
     using MusicStore.Migrations;
     using MusicStorEntity.Migrations;
@@ -16,11 +16,11 @@ namespace WebApplication1.Migrations
 
         protected override void Seed(MusicStoreEntity.EntityDbContext context)
         {
-            //UserAndRoleSeed.AddRoles();
-            //UserAndRoleSeed.AddUsers();
+            UserAndRoleSeed.AddRoles();
+            UserAndRoleSeed.AddUsers();
             GenreSeed.Seed();
             GenreSeed.Extend();
-            
+
         }
     }
 }

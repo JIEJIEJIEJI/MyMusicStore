@@ -5,9 +5,9 @@ using MusicStoreEntity;
 using MusicStoreEntity.UserAndRole;
 using System;
 using System.Web.Mvc;
-using WebApplication1.ViewModels;
+using MusicStore.ViewModels;
 
-namespace WebApplication1.Controllers
+namespace MusicStore.Controllers
 {
     public class AccuntController : Controller
     {
