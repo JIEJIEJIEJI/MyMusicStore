@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace MusicStoreEntity
 {
-public    class EnumOrderStatus
+    public enum EnumOrderStatus
     {
-        //未付款,
-        //已付款,
-        //交易关闭
+        未付款,
+        已付款,
+        交易关闭
     }
 }
+
