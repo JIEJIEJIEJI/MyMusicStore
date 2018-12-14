@@ -58,7 +58,7 @@ namespace MusicStore.Controllers
         {
             //判断用户是否登录
             if (Session["LoginUserSessionModel"] == null)
-                return RedirectToAction("login", "Account", new { returnUrl = Url.Action("index", "ShoppingCart") });
+                return RedirectToAction("Login", "Accunt", new { returnUrl = Url.Action("index", "ShoppingCar") });
 
             //查询出当前登录用户
             var person = (Session["LoginUserSessionModel"] as LoginUserSessionModel).Person;
@@ -95,7 +95,7 @@ namespace MusicStore.Controllers
         {
             //判断用户是否登录
             if (Session["LoginUserSessionModel"] == null)
-                return RedirectToAction("login", "Account", new { returnUrl = Url.Action("index", "ShoppingCart") });
+                return RedirectToAction("Login", "Accunt", new { returnUrl = Url.Action("index", "ShoppingCar") });
             var person = (Session["LoginUserSessionModel"] as LoginUserSessionModel).Person;
 
             //查询出要处理删除的购物车项

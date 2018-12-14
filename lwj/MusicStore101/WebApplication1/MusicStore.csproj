@@ -149,7 +149,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Controllers\Accuntcontroller.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\OrderController.cs" />
     <Compile Include="Controllers\PayController.cs" />
@@ -174,13 +174,23 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Images\awe.jpg" />
+    <Content Include="Content\Images\cj.jpg" />
+    <Content Include="Content\Images\cjy.jpg" />
+    <Content Include="Content\Images\cyl.jpg" />
     <Content Include="Content\Images\home-showcase.png" />
+    <Content Include="Content\Images\hxm.jpg" />
+    <Content Include="Content\Images\jsd.jpg" />
+    <Content Include="Content\Images\ljj.jpg" />
     <Content Include="Content\Images\loading.gif" />
     <Content Include="Content\Images\logo.png" />
+    <Content Include="Content\Images\lrh.jpg" />
+    <Content Include="Content\Images\mkjkx.jpg" />
     <Content Include="Content\Images\placeholder.gif" />
     <Content Include="Content\Images\ProgressIcon.gif" />
-    <Content Include="Content\Images\timgdd.jpg" />
     <Content Include="Content\Images\timg.jpg" />
+    <Content Include="Content\Images\timgdd.jpg" />
+    <Content Include="Content\Images\zjl.jpg" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\themes\base\accordion.css" />
     <Content Include="Content\themes\base\all.css" />
@@ -264,15 +274,14 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Accunt\Register.cshtml" />
-    <Content Include="Views\Accunt\Login.cshtml" />
     <Content Include="Views\Accunt\ChangePassWord.cshtml" />
     <Content Include="Views\Store\Index.cshtml" />
     <Content Include="Views\Order\Buy.cshtml" />
+    <Content Include="Views\Pay\AliPay.cshtml" />
     <Content Include="Views\ShoppingCart\Index.cshtml" />
+    <Content Include="Views\Account\Login.cshtml" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Views\Account\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
