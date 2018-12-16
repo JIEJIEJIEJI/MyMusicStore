@@ -16,6 +16,7 @@ namespace MusicStoreEntity
         public string Description { get; set; }
         public bool Sex { get; set; } = true;
         public Artist()
+        
         {
             ID = Guid.NewGuid();
         }

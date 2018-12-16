@@ -280,6 +280,7 @@
     <Content Include="Views\Pay\AliPay.cshtml" />
     <Content Include="Views\ShoppingCart\Index.cshtml" />
     <Content Include="Views\Account\Login.cshtml" />
+    <Content Include="Views\Order\Index.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

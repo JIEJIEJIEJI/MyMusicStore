@@ -34,6 +34,9 @@ namespace MusicStoreEntity
 
         //专辑的网址
         public string AlbumArtUrl { get; set; }
+        //播放
+        //public string play { get; set; }
+        //歌手的主键值
 
         public Album()
         {

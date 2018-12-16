@@ -77,12 +77,13 @@ namespace MusicStorEntity.Migrations
                 },
                  new Album
                  {
+
                 Title = "music",
                 Genre = genres.Single(g => g.Name == "嘻哈"),
                 Price = 8.59M,
                 Artist = artists.Single(a => a.Name == "李荣浩"),
                 AlbumArtUrl = "/Content/Images/lrh.jpg"
-
+                
 
                 },
                    new Album
