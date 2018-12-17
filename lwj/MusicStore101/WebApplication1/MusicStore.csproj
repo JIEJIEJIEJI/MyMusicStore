@@ -175,10 +175,10 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Images\awe.jpg" />
+    <Content Include="Content\Images\bf.jpg" />
     <Content Include="Content\Images\cj.jpg" />
     <Content Include="Content\Images\cjy.jpg" />
     <Content Include="Content\Images\cyl.jpg" />
-    <Content Include="Content\Images\home-showcase.png" />
     <Content Include="Content\Images\hxm.jpg" />
     <Content Include="Content\Images\jsd.jpg" />
     <Content Include="Content\Images\ljj.jpg" />
