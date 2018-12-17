@@ -31,15 +31,15 @@ body {
 
 #promotion {
     height: 300px;
-    width:350px;
+    width:850px;
     background: url(/content/Images/timg.jpg) no-repeat;
+}
+
+#bf{
     height: 300px;
     width: 350px;
     background: url(/content/Images/bf.jpg) no-repeat;
- 
 }
-
-
 ul li a {
     font-size: 16px;
 }
