@@ -5,11 +5,16 @@
     ViewBag.Title = "专辑明细";
 }
 
+
 <h2>@Model.Title</h2>
 
-<p>
-    <img alt="@Model.Title" src="@Model.AlbumArtUrl"/>
-</p>
+<div id="box-video">
+    <div class="cd" style="background: url(@(Model.AlbumArtUrl)) no-repeat;">
+        <div class="cd-center">
+            <audio src="@Model.MusicUrl" controls autoplay loop></audio>
+        </div>
+    </div>
+</div>
 
 <div id="album-details">
     <p>
@@ -36,16 +41,14 @@
         </em>
         ￥@String.Format("{0:F}", Model.Price)
     </p>
-    @*<p>
-        <img alt="@Model.Title" src="@Model.play" />
-    </p>*@
+
     <div id="msg"></div>
     <p class="button">
         <a class="btn" id="addcart">添加到购物车</a>
         <div id="msg"></div>
     </p>
-
 </div>
+
 <script>
     $("#addcart").click(function() {
         //异步

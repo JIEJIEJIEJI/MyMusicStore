@@ -175,7 +175,8 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Images\awe.jpg" />
-    <Content Include="Content\Images\bf.jpg" />
+    <Content Include="Content\Images\bg.png" />
+    <Content Include="Content\Images\cd_img.jpg" />
     <Content Include="Content\Images\cj.jpg" />
     <Content Include="Content\Images\cjy.jpg" />
     <Content Include="Content\Images\cyl.jpg" />
@@ -185,6 +186,7 @@
     <Content Include="Content\Images\loading.gif" />
     <Content Include="Content\Images\logo.png" />
     <Content Include="Content\Images\lrh.jpg" />
+    <Content Include="Content\Images\mis.gif" />
     <Content Include="Content\Images\mkjkx.jpg" />
     <Content Include="Content\Images\placeholder.gif" />
     <Content Include="Content\Images\ProgressIcon.gif" />
@@ -235,6 +237,7 @@
     <Content Include="Content\themes\base\tooltip.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="Music\1.mp3" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Content\bootstrap-theme.css.map" />

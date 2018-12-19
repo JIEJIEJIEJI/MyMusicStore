@@ -14,15 +14,9 @@ namespace MusicStoreEntity
         public Guid ID { get; set; }
         public string Title { get; set; }//专辑名称
         public decimal Price { get; set; }
-
-
-
-
-
-
         //所属分类
         public virtual Genre Genre { get; set; }
-        //分类主键值
+        //分类的主键值
         public string GenreId { get; set; }
         //歌手
         public virtual Artist Artist { get; set; }
@@ -34,9 +28,9 @@ namespace MusicStoreEntity
 
         //专辑的网址
         public string AlbumArtUrl { get; set; }
-        //播放
-        //public string play { get; set; }
-        //歌手的主键值
+
+        //试听网址
+        public string MusicUrl { get; set; } = "/music/1.mp3";
 
         public Album()
         {
