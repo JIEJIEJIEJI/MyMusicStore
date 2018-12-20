@@ -186,12 +186,12 @@
     <Content Include="Content\Images\loading.gif" />
     <Content Include="Content\Images\logo.png" />
     <Content Include="Content\Images\lrh.jpg" />
-    <Content Include="Content\Images\mis.gif" />
     <Content Include="Content\Images\mkjkx.jpg" />
     <Content Include="Content\Images\placeholder.gif" />
     <Content Include="Content\Images\ProgressIcon.gif" />
     <Content Include="Content\Images\timg.jpg" />
     <Content Include="Content\Images\timgdd.jpg" />
+    <Content Include="Content\Images\yinfu.gif" />
     <Content Include="Content\Images\zjl.jpg" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\themes\base\accordion.css" />

@@ -31,9 +31,8 @@ body {
 
 #promotion {
     height: 300px;
-    width:850px;
-    background: url(/content/Images/timg.jpg) no-repeat;
-
+    width: 700px;
+    background: url(/content/Images/home-showcase.png) no-repeat;
 }
 
 ul li a {
@@ -198,6 +197,9 @@ a:active {
         color: #F46739;
     }
 
+div#album-details {
+    min-height: 500px;
+}
 div#album-details p {
     margin-bottom: 5px;
     color: #5e5b54;
@@ -281,9 +283,6 @@ th, td {
 tr:hover {
     background-color: #fff;
 }
-tr:hover {
-    background-color: #fff;
-}
 
 
 .Genre-List:link, .Genre-List:visited {
@@ -320,16 +319,15 @@ tr:hover {
 }
 
 .cd {
-    width: 100px;
-    height: 100px;
+    width: 422px;
+    height: 422px;
     position: absolute;
-    top: 20%;
-    left: 20%;
+    top: 25%;
+    left: 10%;
     border-radius: 50%;
-    border: 2px solid white;
+    border: 10px solid white;
     z-index: 2;
-    box-shadow: 2px 2px 6px black;
-    
+    box-shadow: 5px 5px 15px black;
 }
 
 .cd-center {
@@ -342,11 +340,11 @@ tr:hover {
     top: 50%;
     margin-left: -50px;
     margin-top: -50px;
-    background-image: url(/content/images/mis.gif);
-    background-size:100% 100%;
+    border: 5px solid white;
+    background-image: url(/content/images/yinfu.gif);
     background-position: center center;
     background-repeat: no-repeat;
-    z-index: 4;
+    z-index: 3;
     background-color: black;
 }
 
@@ -358,5 +356,5 @@ tr:hover {
 
 #box-video {
     position: absolute;
-    left: 300px;
+    left: 400px;
 }
