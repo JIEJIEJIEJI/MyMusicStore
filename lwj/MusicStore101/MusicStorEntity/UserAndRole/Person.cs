@@ -52,8 +52,9 @@ namespace MusicStoreEntity.UserAndRole
         //收件人地址
         public string Address { get; set; } = "未填写";
         //个人头像
-        //[DataType(DataType.ImageUrl)]
-        //public string Avarda { get; set; } = "/content/images/boy.jpg";
+        [DataType(DataType.ImageUrl)]
+        public string Avarda { get; set; } = "/content/images/juhua.jpg";
+
 
         public Person()
         {
