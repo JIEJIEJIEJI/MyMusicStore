@@ -3,13 +3,11 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
-using System.Web.Mvc;
 
 namespace MusicStore.ViewModels
 {
-    public class ChangePassWordViewModel 
+    public class ChangePassWordViewModel
     {
-
         [Required(ErrorMessage = "密码不能为空")]
         [Display(Name = "密码")]
         [DataType(DataType.Password)]
@@ -23,7 +21,7 @@ namespace MusicStore.ViewModels
 
         [Display(Name = "确认新密码")]
         [DataType(DataType.Password)]
-        [System.ComponentModel.DataAnnotations.Compare("NewPassWord", ErrorMessage = "密码两次输入要一致")]
+        [Compare("NewPassWord", ErrorMessage = "密码两次输入要一致")]
         public string ConfirmNewPassWord { get; set; }
     }
 }

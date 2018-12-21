@@ -3,8 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-
-using MusicStorEntity;
 using MusicStoreEntity;
 
 namespace MusicStore.Controllers
@@ -34,6 +32,7 @@ namespace MusicStore.Controllers
                 .OrderByDescending(x=>x.PublisherDate).ToList();
             return View(list);
         }
+
         /// <summary>
         /// 显示所有的分类
         /// </summary>
