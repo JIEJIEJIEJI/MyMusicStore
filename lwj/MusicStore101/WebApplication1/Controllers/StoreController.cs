@@ -19,6 +19,9 @@ namespace MusicStore.Controllers
         public ActionResult Detail(Guid id)
         {
             var detail = _context.Albums.Find(id);
+            var cmt = _context.Replies.Where(x => x.Album.ID == id && x.ParentReply == null)
+                .OrderByDescending(x => x.CreateDateTime).ToList();
+            ViewBag.Cmt = _GetHtml(cmt);
             return View(detail);
         }
 

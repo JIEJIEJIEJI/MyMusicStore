@@ -28,15 +28,16 @@
     <title>@ViewBag.Title - 音乐商店</title>
     @*绑定样式库*@
     @Styles.Render("~/Content/css")
+    @Styles.Render("~/UEditor/Css")
     @Styles.Render("~/bundles/modernizr")
     @Styles.Render("~/Content/JqueryUI")
 
     @*绑定脚本库*@
     @Scripts.Render("~/bundles/jquery")
- 
     @Scripts.Render("~/bundles/JqueryUI")
     @Scripts.Render("~/bundles/jqueryval")
     @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/UEditor")
 </head>
 <body>
     <div id="header">
@@ -98,7 +99,7 @@
 </html>
 
 <script type="text/javascript" src="http://api.map.baidu.com/api?v=3.0&ak=emKzTIR8orgFMUjXFLjgU1IT"></script>
-@*<script>
+<script>
     var geolocation = new BMap.Geolocation();
     geolocation.getCurrentPosition(function(r) {
         if (this.getStatus() == BMAP_STATUS_SUCCESS) {
@@ -118,5 +119,5 @@
         }
         },
         { enableHighAccuracy: true });
-</script>*@
+</script>
 
